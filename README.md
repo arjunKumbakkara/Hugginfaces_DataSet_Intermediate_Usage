@@ -76,6 +76,7 @@ from datasets import load_dataset
 
 dataset5 =  load_dataset('parquet', data_files= 'location/file5.parquet')
 ```
+Note:Parquet is just another file storage format .An open source file format built to handle flat columnar storage data formats.
 
 **Example Loading Zip/TAR or common compressed file for JSON or anyother format**
 
@@ -251,6 +252,9 @@ dataset.features
 'label': ClassLabel(num_classes=2, names=['not_equivalent', 'equivalent'], names_file=None, id=None),
 'idx': Value(dtype='int32', id=None)}
 ```
+
+As seen , we cast Data Type for the Column labels to text binaris such as 'positive '  and 'negative' 
+
 ```python
 from datasets import ClassLabel, Value
 new_features = dataset.features.copy()
@@ -396,9 +400,16 @@ validation_dataset = streamed_dataset.take(1000)
 ```
 
 
-There are lot's of things to be told for this Library but it's better if it's been studied from the [HuggingFace Course](https://huggingface.co/course/chapter5/1?fw=pt).
+There are lot's of things to be told for this Library.Hence we have decided to make this a series based on usage level such as intermediate and advanced.
+Please watch out for the Advanced version of the same repo. You can click on 'Watch' and stay upto date using notifications.
+
+##### Advanced Concepts
+1. More on Parallized File Systems 
+2. Cloud based Storages , Retrieval and all pertinent operations.
+3. Data Collation : Collate large chunks of data into processable units 
+
+If you like this Blog please show your love and give us a thumbs up , star us  and if not please do give us a feedback in the comment section.
 
 
-If you like this Blog please show your love and give us thumbs up and if not give us feedback.
-
-
+Here's hoping that you wil have fun with the library! 
+GodSpeed! 
