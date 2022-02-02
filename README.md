@@ -1,7 +1,7 @@
 # How to use HuggingFace Dataset Library effectively in the NLP Project
 
 ## Authors
-**Nabarun Barua** 
+**Nabarun Barua**     
 
 [Git](https://github.com/nabarunbaruaAIML)/ [LinkedIn](https://www.linkedin.com/in/nabarun-barua-aiml-engineer/)/ [Towardsdatascience](https://medium.com/@nabarun.barua)
 
