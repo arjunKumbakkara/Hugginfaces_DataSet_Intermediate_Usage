@@ -1,5 +1,11 @@
 # How to use HuggingFace Dataset Library effectively in the NLP Project : Level Intermediate
 
+# Everything you need to know play NLP dataset in 10 Min
+
+# How HuggingFace Dataset Library is better than Traditional Dataset Management Approach
+
+# All you need to know about NLP Dataset in One Place
+
 ## Authors
 **Nabarun Barua**     
 
