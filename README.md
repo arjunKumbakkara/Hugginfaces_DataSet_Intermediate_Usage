@@ -327,7 +327,7 @@ dataset = dataset.map(compute_length,batched=True)
 ```
 Use of this Function can be best seen when using with Fast Tokenizer.
 
-Below example taken from [HuggingFace Course](https://huggingface.co/course/chapter5/3?fw=pt) which shows relative comparison for Fast & slow tokenizer with batch & without batch on a dataset.
+Below example taken from HuggingFace.co which shows relative comparison for Fast & slow tokenizer with batch & without batch on a dataset.
 
 ```bash
 Options	            Fast tokenizer	Slow tokenizer
@@ -336,7 +336,7 @@ batched=False	    59.2s	        5min3s
 ```
 By above example we can see that if batched is true then it's 30 times faster in executing the function.
 
-This Fucntion also support parallelism i.e. property num_proc. But do remember using num_proc to speed up your processing is usually a great idea, as long as the function you are using is not already doing some kind of multiprocessing of its own. In Below example we have used multiprocessing with Fast tokenizer but that is not advisable since Fast tokenizer already works internally on parallelism. For better understanding please go through the [HuggingFace Course](https://huggingface.co/course/chapter5/3?fw=pt). Below example taken from their course which shows relative comparison for Fast & slow tokenizer with num_proc,batch & without batch,num_proc on a dataset.
+This Fucntion also support parallelism i.e. property num_proc. But do remember using num_proc to speed up your processing is usually a great idea, as long as the function you are using is not already doing some kind of multiprocessing of its own. In Below example we have used multiprocessing with Fast tokenizer but that is not advisable since Fast tokenizer already works internally on parallelism. For better understanding please go through the HuggingFace.co. Below example taken from their course which shows relative comparison for Fast & slow tokenizer with num_proc,batch & without batch,num_proc on a dataset.
 
 ```bash
 Options	                            Fast tokenizer	Slow tokenizer
