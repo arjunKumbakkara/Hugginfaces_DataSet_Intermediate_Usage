@@ -403,13 +403,14 @@ validation_dataset = streamed_dataset.take(1000)
 There are lot's of things to be told for this Library.Hence we have decided to make this a series based on usage level such as intermediate and advanced.
 Please watch out for the Advanced version of the same repo. You can click on 'Watch' and stay upto date using notifications.
 
-##### Advanced Concepts
-1. More on Parallized File Systems 
-2. Cloud based Storages , Retrieval and all pertinent operations.
-3. Data Collation : Collate large chunks of data into processable units 
+#### Advanced Concepts
+#### 1. More on Parallized File Systems 
+#### 2. Cloud based Storages , Retrieval and all pertinent operations.
+#### 3. Data Collation : Collate large chunks of data into processable units 
 
 If you like this Blog please show your love and give us a thumbs up , star us  and if not please do give us a feedback in the comment section.
 
 
 Here's hoping that you wil have fun with the library! 
-GodSpeed! 
+
+#### GodSpeed! 
